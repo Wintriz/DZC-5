@@ -17,24 +17,24 @@ for (int i = 0; i < array.Length; i++)
     if (array[i] > max)
     {
         max = array[i];
- 
+
 
     }
     min = array[i];
     if (array[i] < min)
     {
         min = array[i];
-        
-        
-        
+
+
+
     }
 
-    
+
 }
 Console.Write("Максимальное число: ");
 Console.WriteLine(max);
 Console.Write("Минимальное число: ");
 Console.WriteLine(min);
-diff = max -min;
+diff = max - min;
 Console.Write("Разница между числами: ");
 Console.WriteLine(diff);
